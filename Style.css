@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fffen {
+  background-color: #f5f6fa;
+}
+.toolbox-cont {
+  height: 5rem;
+  background-color: #3f4246;
+  display: flex;
+  align-items: center;
+}
+
+.toolbox-cont > * {
+  margin-left: 4rem;
+  border-radius: 2px;
+}
+
+.toolbox-priority-cont {
+  height: 3.5rem;
+  width: 14rem;
+  background-color: #8395a7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-btn-cont {
+  height: 3.5rem;
+  width: 6rem;
+  background-color: #8395a7;
+  display: flex;
+}
+
+.action-btn-cont > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 50%;
+  color: #c8d6e5;
+}
+
+.color {
+  height: 1.2rem;
+  width: 2rem;
+  background-color: #dfe4ea;
+  border-radius: 2px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.action-btn-cont > *:hover {
+  background: white;
+}
+
+.modal-cont {
+  height: 50vh;
+  width: 45vw;
+  background-color: #ffffff;
+  position: absolute;
+  top: calc((100vh - 50vh) / 2);
+  left: calc((100vw - 45vw) / 2);
+  display: none;
+}
+
+.textarea-cont {
+  height: 100%;
+  width: 75%;
+  border: 20px solid #e1e8f0;
+  outline: none;
+  background-color: #ffffff;
+  resize: none;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+textarea::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.priority-colors-cont {
+  height: 100%;
+  width: 25%;
+  background-color: #8395a7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.priority-color {
+  height: 3rem;
+  width: 55%;
+}
+
+.border {
+  border: 5px solid #f5f6fa;
+}
+
+.ticket-cont {
+  height: 13rem;
+  width: 16rem;
+}
+
+.ticket-color {
+  height: 1rem;
+}
+
+.ticket-id {
+  height: 2rem;
+  background-color: #dfe4ea;
+  padding: 0.4rem;
+}
+
+.task-area {
+  height: calc(100% - 1rem - 2rem - 2rem);
+  background-color: #dfe4ea;
+  padding: 0.4rem;
+  outline: none;
+}
+
+.main-cont {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
