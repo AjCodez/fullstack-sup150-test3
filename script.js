@@ -43,7 +43,7 @@ for (let i = 0; i < toolboxColor.length; i++) {
         for (let i = 0; i < allTicketsCont.length; i++) {
             allTicketsCont[i].remove();
         }
-        ticketArr.forEach((ticketObj, idx) => {
+        ticketArr.forEach((ticketObj) => {
             createTicket(ticketObj.ticketColor, ticketObj.ticketTask, ticketObj.ticketID);
         })
     })
